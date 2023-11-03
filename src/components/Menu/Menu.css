@@ -1,0 +1,17 @@
+.list {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    border-radius: 12px;
+    background: white;
+}
+
+.btn-remove {
+    width: 32px;
+    height: 32px;
+    text-indent: 300%;
+    margin-left: 40px;
+    padding: 0;
+    overflow: hidden;
+    background: crimson url("src/assets/delete-bin-2-fill.svg") center / 18px 18px no-repeat;
+}
