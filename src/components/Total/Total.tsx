@@ -8,7 +8,7 @@ const Total: React.FC<Props> = ({count}) => {
     const totalStyle: React.CSSProperties = {
         fontSize: '24px',
         fontWeight: 'bold',
-        color: 'gray'
+        color: 'black'
     };
 
     return (
